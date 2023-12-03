@@ -1,0 +1,30 @@
+ASM2 requirement:
+- Box model :             _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+                         |    position                         |
+                         |     _ _ _ _ _ _ _ _ _ _ _ _ _ _     |
+                         |     | margin    -               |   |
+                         |     |    _ _ _ _ _ _ _ _ _ _    |   |
+                         |     |   |   border           |  |   |
+                         |     |   |    _ _ _ _ _ _ _   |  |   |
+                         |     |   |   | padding     |  |  |   |
+                         |     |   |   |  _ _ _ _ _  |  |  |   |
+                         |     |   |   | |page size| |  |  |   |
+                         |     |   |   | |_ _ _ _ _| |  |  |   |
+                         |     |   |   |_ _ _ _ _ _ _|  |  |   |
+                         |     |   |_ _ _ _ _ _ _ _ _ _ |  |   |                                               
+                         |     |_ _ _ _ _ _ _ _ _ _ _ _ _ _|   |
+                         | _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ |
+
+
+-margin :
+   CSS có các thuộc tính để xác định lề cho mỗi cạnh của một phần tử:
+   +  margin-top
+   +  margin-right
+   +  margin-bottom
+   +  margin-left
+Tất cả các thuộc tính lề có thể có các giá trị sau:
+
+tự động - trình duyệt tính toán mức ký quỹ
+chiều dài - chỉ định lề bằng px, pt, cm, v.v.
+% - chỉ định lề tính bằng % chiều rộng của phần tử chứa
+kế thừa - chỉ định rằng lề phải được kế thừa từ phần tử cha
