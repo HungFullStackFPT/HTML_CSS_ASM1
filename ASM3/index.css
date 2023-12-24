@@ -1,0 +1,93 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin:auto;
+  }
+  .container {
+    width: 100%;
+    max-width: 800px;
+    padding: 0px;
+    margin: 0 auto;
+  }
+  nav div {
+    display: inline-block;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: 55% auto;
+  } 
+   nav.right {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+  } 
+  a {
+      max-width: 100%;
+      font-size: 15px;
+      margin: auto;
+  }
+  /* .footer {
+      display: grid;
+  }
+ .footer div h2{
+  font-size: 28px
+ } */
+
+  .row img {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      width: 100%;
+      border-radius: 10px;
+      border-bottom: 10px;
+      gap: 10px;
+    }  
+  
+    /* For mobile phones: */
+  .navbar-brand {
+      padding-left: 0px;
+  }
+  .text {
+      top: 0px;
+      left: 6%;
+      color: rgb(138, 204, 230) ;
+  }
+  .text h1{
+      font-size: 24px;
+  }
+  .text p {
+      top: 30px;
+      left: 0px;
+      font-size: 13px;
+  }  
+  .row {
+    padding-left: 10px;
+  }
+  .image {
+    margin-left:  0px;
+  }
+   /* For tablets: */
+  @media only screen and (min-width: 768px) {   
+  .text {
+        top: 0px;
+        left: 20%;
+      }
+  .text h1{
+        font-size: 30px;
+      } 
+  .text p {
+        top: 40px;
+        left: 25px;
+        font-size: 16px;
+      }
+  }
+  /* .row {
+    padding-left: 20px;
+  } */
+  /* .image row div {
+    margin-left:  15px;
+  } */
+   /* For desktop: */
+  @media only screen and (min-width: 987px) {
+    .text {
+      left: 20%;
+    }
+  }
