@@ -44,6 +44,7 @@ a {
   border-radius: 10px;
   border-bottom: 10px;
   gap: 10px;
+  margin-left: 2px;
 }
 
 /* For mobile phones: */
@@ -73,18 +74,26 @@ a {
 }
 
 .image {
-  margin-left: 0px;
+  margin-left: 10px;
+  max-width: fit-content;
 }
 .text1{
   margin-left: 5px;
-}
 
+}
+/* For mobile*/
+@media only screen and (min-width: 430px){
+  body{
+    max-width: 400px;
+  }
+}
 /* For tablets: */
 @media only screen and (min-width: 768px) {
   .text {
     top: 0px;
     left: 20%;
   }
+  
   
 
   .text h1 {
